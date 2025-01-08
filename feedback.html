@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="talkipy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" style="margin-top: -17px; margin-left: -20px;" href="index.html">
+                <img src="Dyno_icon.png"  alt="Talkipy"  class="img-fluid1"></a>
+            <a class="navbar-brand" style="margin-top: -14px;" href="index.html">
+                <img src="Dyno_icon.png" alt="Talkipy" class="img-fluid1"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="letschat.html">Let's Chat</a></li>
+                <li><a href="blogpage.html">Blogs</a></li>
+                <!--li><a href="community.html">Community</a></li-->
+                <li><a href="contact.html">Contact Us</a></li>
+                <!--li ><a class="signin" href="">Sign In</a></li-->
+            </ul>
+          </div>
+        </div>
+    </nav>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-6">
+                  <img src="feedback.jpg" height=auto width=70% id="show" style="margin-top: 90px;">
+              </div>
+              <div class="col-md-5" style="text-align: center;">
+                  <h1 class="Feedbacks"><b>Feedback</b></h1>
+                  <h3 style=" color: #28384E; font-size: 20px;  line-height: 30px; ">Use our feedback service to let us know how much we were able to help you. Your honest opinion will be most valuable to us in improving our services for you.</h3>
+              </div>
+          </div>   
+          </div>
+      
+          
+  
+
+
+<div class="container-fluid" style="color: #072753; font-family: Montserrat;">
+    <h1 style="text-align: center; font-size: 50px;"><b>Feedback Form</b></h1>
+    
+    <div class="row feedback-txt">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <form action="/action_page.php" autocomplete="off" name="google-sheet" method="POST">
+            <div class="col-sm-4">
+                <input id="yourname" type="text" name="Name" placeholder="Your Name*">
+               </div>
+            <div class="col-sm-4"></div>
+        </div>
+        
+        <p style="text-align: center; font-size: 25px;"><b>How did our services make you feel?</b></p>
+       
+        
+        
+        
+        <div class="col-md-12">
+        <div class="emojimaker">
+            <div class="emo">
+              <label for="0">
+              <input class="radios" type="radio" name="feedback" id="0" value="0">
+              <span>🙁</span>
+            </label>
+            </div>
+        
+            <div class="emo">
+              <label for="1">
+              <input class="radios" type="radio" name="feedback" id="1" value="1">
+              <span>&#128533;</span>
+            </label>
+            </div>
+        
+            <div class="emo">
+              <label for="2">
+              <input class="radios" type="radio" name="feedback" id="2" value="2">
+              <span> &#128528;</span>
+            </label>
+            </div>
+        
+            <div class="emo">
+              <label for="3">
+              <input class="radios" type="radio" name="feedback" id="3" value="3">
+              <span>😁</span>
+            </label>
+            </div>
+        
+            <div class="emo">
+              <label for="4">
+              <input class="radios" type="radio" name="feedback" id="4" value="4">
+              <span>😍</span>
+            </label>
+            </div>
+        
+          </div>
+         </div> 
+         
+        <p style="text-align: center; font-size: 25px;"><b>Have something you want to let us know?</b></p>
+
+       
+        <p style="text-align: center; font-size: 25px;"><b>Choose from below the nature of feedback you wish to provide</b></p><br>
+
+        <!--input type="radio" id="button" name="select_btn" value = "button" style= "color:white" onclick="setColor('button', '#101010')";/>
+        <input type="radio" id="button1" name="select_btn" value = "button" style= "color:white" onclick="setColor('button1', '#101010')";/>
+        <input type="radio" id="button2" name="select_btn" value = "button" style= "color:white" onclick="setColor('button2', '#101010')";/-->
+
+        <div class="radio-toolbar">
+            <input type="radio" id="radioApple" name="radiob" value="Suggestion" checked>
+            <label for="radioApple">Suggestion</label>
+        
+            <input type="radio" id="radioBanana" name="radiob" value="Something is not quite right!">
+            <label for="radioBanana">Something is not quite right!</label>
+        
+            <input type="radio" id="radioOrange" name="radiob" value="Complaint">
+            <label for="radioOrange">Complaint</label> 
+
+            <input type="radio" id="radiopine" name="radiob" value="No Specific Reason">
+            <label for="radiopine">No Specific Reason</label> 
+        </div>
+       
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            
+        <p style="text-align: center; font-size: 25px;"><b>Please leave your feedback here</b></p>
+        <textarea id="subject" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+        <button type="submit" name="submit" class="btn btn-success" onclick="submitting()">Success</button>
+        </form>
+        </div>
+         <div class="col-md-4"></div>
+    </div>
+</div>
+
+<footer class="container-fluid" id="container9">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="index.html"><img src="Dyno_icon.png" style="width: 80px;"  alt="centered image"></a>
+                        </div>
+                        <div class="col-sm-5">
+                        <h1 style="margin-top: 25px;"><b>Talkipy</b></h1>
+                        <h4>Talks, Warmth & Love</h4>
+                        </div>
+                        <div class="col-sm-3"></div>
+                    </div>
+                       
+                            <h4>Subscribe to our Newsletter</h4>
+                        <form method="POST" autocomplete="off" name="google-sheet1" onsubmit="return false">
+                          <div class="row">
+                            <div class="col-xs-9">
+                              <div class="form-group">
+                                <input type="text" class="form-control" name="EmailId" placeholder="Enter your email address">
+                              </div>
+                            </div>
+                        
+                            <button style="margin-top:5px" type="submit" name="submit1" class="btn btn-warning ">Send</button>
+                        
+                          </div>
+                        </form>
+                </div>
+                <div class="col-sm-2 " style="margin-top:30px;">
+                    <h3>Company</h3>
+                    <a href="aboutus.html"><p>About Us</p></a>
+                    <a href="letschat.html"><p>Let's Chat</p></a>
+                    <!--a href="letschat.html"><p>Blog</p></a-->
+                    <a href="blogpage.html"><p>Blogs</p></a>
+                    <a href="feedback.html"><p>Feedback</p></a>
+                </div>
+                <div class="col-sm-3" style="margin-top:30px;">
+                    <h3>Support</h3>
+                    <a href="contact.html"><p>Contact Us</p></a>
+                    <a href="Privacy.html"><p>Privacy Policy</p></a>
+                    <div class="row" style="text-align: center; margin-left: -40px;">
+                        <a href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:30px;padding: 25px;"></i></a>
+                        <a href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:30px;padding: 15px;"></i></a>                
+                        <a href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:30px;padding: 15px;"></i></a> 
+                        <a href="https://www.youtube.com/channel/UCJoajhdB-lFPRJxmWFWZtiA"><i class="fa fa-youtube" style="font-size:30px;padding: 18px;"></i></a>               
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </footer>
+<script>
+    var count = 1;
+    function setColor(btn, color) {
+        var property = document.getElementById(btn);
+        if (count == 0) {
+            property.style.backgroundColor = "#FFFFFF"
+            count = 1;        
+        }
+        else {
+            property.style.backgroundColor = "#7FFF00"
+            count = 0;
+        }
+    }
+
+    var count1 = 1;
+    function setColor1(btn1, color1) {
+        var property1 = document.getElementById(btn1);
+        if (count1 == 0) {
+            property1.style.backgroundColor = "#FFFFFF"
+            count1 = 1;        
+        }
+        else {
+            property1.style.backgroundColor = "#7FFF00"
+            count1 = 0;
+        }
+    }
+    var count2= 1;
+    function setColor2(btn2, color2) {
+        var property2 = document.getElementById(btn2);
+        if (count2 == 0) {
+            property2.style.backgroundColor = "#FFFFFF"
+            count2 = 1;        
+        }
+        else {
+            property2.style.backgroundColor = "#7FFF00"
+            count2 = 0;
+        }
+    }
+    var count3= 1;
+    function setColor2(btn3, color3) {
+        var property3 = document.getElementById(btn3);
+        if (count3 == 0) {
+            property3.style.backgroundColor = "#FFFFFF"
+            count3 = 1;        
+        }
+        else {
+            property3.style.backgroundColor = "#7FFF00"
+            count3 = 0;
+        }
+    }
+</script>
+<script>
+    $(document).on('click', '.radio-button', function() {
+   //Remove active class from all buttons
+   $('.radio-button').removeClass('active');
+   //Add active class to the clicked button
+   $(this).addClass('active');
+});
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyVgsQSAVZEjvCPL9DQ-3LcZRFOKMkGIGwG69ph_yKP0rtfKaF06mheMT2qiVbEvmf7IQ/exec'
+    const form = document.forms['google-sheet']
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        var frm = document.getElementsByName('google-sheet')[0];
+        frm.reset();
+    })
+</script>
+<script>
+    const scriptURL1 = 'https://script.google.com/macros/s/AKfycbwKK8zlZra5zkOH_lzEk-tzM2SicXm_jrzB95L_9F-K2lRMdRWkiKJkj0UEL0jzcp4Y/exec'
+    const form1 = document.forms['google-sheet1']
+
+    form1.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL1, { method: 'POST', body: new FormData(form1) })
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        var frm1 = document.getElementsByName('google-sheet1')[0];
+        frm1.reset();
+    })
+</script>
+</body>
+</html>
