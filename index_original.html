@@ -18,6 +18,14 @@
         text-align: center; 
         margin-top: 13.020833333333334vw;
     }
+    .hometop_text{
+        font-size: 6rem;
+    }
+    .centering2{
+        color: white;
+        font-size: 2rem;
+        border-radius: 30px;
+    }
     #But_i_must{
         margin:1.3020833333333333vw; 
         padding:1.3020833333333333vw; 
@@ -32,7 +40,8 @@
     .svg_img{
         height:auto ;
         width:80px;
-        padding-left: .5208333333333333vw;
+        padding-left: .5208333333333333rem;
+        margin-right: 1.25rem;
     }
     #girl_texting{
         width:100%;
@@ -57,20 +66,27 @@
         margin-top: 0;
     }
     #motto_card_div{
-        max-width:250px ;
-        max-height:300px ;
+        max-width:200px ;
+        max-height:250px ;
+        margin:2rem;
+        padding:0;
     }
     .motto_card{
-        height:300px; 
+        height:250px; 
         width:200px;
         background-color: white; 
         border: 1px solid black;
+        margin:2rem;
     }
     #motto_card_img{
-        max-height:75px;
+        max-height:100px;
         max-width: 100px;
         padding-bottom:1.3020833333333333vw;
     }
+    .ABC{
+         padding-bottom: 0.6510416666666666rem;
+         font-size: 2rem;    
+        }
     #stilldoubtful {
         margin: 0; 
         padding: 0; 
@@ -116,9 +132,9 @@
     }
     #testimonial_section {
     display: flex; /* Enable flexbox for the row */
-    flex-direction: column; /* Stack children vertically on smaller screens */
-    align-items: center; /* Center children horizontally */
-    gap: 20px; /* Add space between elements */
+     /* Stack children vertically on smaller screens */
+    align-items: left; /* Center children horizontally */
+     /* Add space between elements */
     }
 
     #testimonial_img {
@@ -127,7 +143,7 @@
     }
 
     #testimonial_text {
-        width: 90%; /* Make the text width responsive */
+        width: 30%; /* Make the text width responsive */
         text-align: justify; /* Keep text justified */
     }
     
@@ -144,6 +160,7 @@
     }
     #hometop{
         margin-top: 10px;
+        font-size: 3.75rem;
     }
     #container01{
         align-items: center;
@@ -200,14 +217,14 @@
         margin-bottom: 10%;
     }
     #motto_card_div{
-        height:350px; 
-        width:250px;
+        height:250px; 
+        width:225px;
         margin-bottom: 2%;
         right:10%;
     }
     .motto_card{
-        height:350px; 
-        width:250px;
+        height:250px; 
+        width:225px;
     }
     .ABC{
         font-size: 30px;
@@ -291,9 +308,9 @@
               <span class="icon-bar"></span>                        
             </button>
             <a class="navbar-brand" style="margin-top: -19px; margin-left: -1.3020833333333333vw;" href="index.html">
-                <img src="Dyno_logo.png"  alt="Talkipy"  class="img-fluid1" style = "height: 100%; width:100%"></a>
+                <img src="Talkipy_Logo.png"  alt="Talkipy"  class="img-fluid1" ></a>
             <a class="navbar-brand" style="margin-top: -17px;" href="index.html">
-                <img src="Dyno_logo.png" alt="Talkipy" class="img-fluid1" style = "height: 100%; width:100%"></a>
+                <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid1" ></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
@@ -314,9 +331,9 @@
                 <img src="dyno_hero_section.png"  height=auto width=100% style="margin-top:5.208333333333333vw;">
             </div>
             <div class="col-md-5" id = "hometop" style=>
-                <h1 class="hometop"><b>Talks,<br>Warmth<br>& Love</b></h1>
+                <h1 class="hometop_text"><b>Talks,<br>Warmth<br>& Love</b></h1>
                 <h3 style="text-align: center; color: #28384E; font-size:15px;"><b>Opening up is tough but we make it easy for you</b></h3>
-                <button type="button" class="btn btn-success centering2"><p id="buttton"><a href="javascript:void(Tawk_API.toggle())" style="color: white;">Free Chat</a></p></button>
+                <a class="btn btn-success centering2" href="javascript:void(Tawk_API.toggle())" >Free Chat</a>
             </div>
         </div>   
         </div>
@@ -349,7 +366,7 @@
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"><h2>Free Chat</h2></p>
+                                    <p class="bringhead"><h1><b>Free Chat</b></h1></p>
                                     <h3 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h3>
                                 </th>
                             </tr>
@@ -363,7 +380,7 @@
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"> <h2>Book a Session</h2></p>
+                                    <p class="bringhead"> <h1><b>Book a Session</b></h1></p>
                                     <h3 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
                                 </th>
                             </tr>
@@ -377,7 +394,7 @@
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"><h3>A suitable therapist</h3></p>
+                                    <p class="bringhead"><h1><b>A suitable therapist</b></h1></p>
                                     <h3 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
                                 </th>
                             </tr>
@@ -405,7 +422,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-4" id = "motto_card_div" >
                             <div class="container-fluid motto_card" style = "background-color: white; border: 1px solid black;">
                             
-                            <div class="ABC" style = "padding-bottom: 0.6510416666666666vw;">Support </div>
+                            <div class="ABC"><b>Support</b></div>
                         
                                 <img src="Dyno_support.jpg" id = "motto_card_img" >
                                
@@ -419,7 +436,7 @@
                         <div class="col-sm-6 col-md-6 col-lg-4" id = "motto_card_div" >
                             <div class="container-fluid motto_card" style="background-color: white; border: 1px solid black;" >
                             
-                            <div class="ABC" style = "padding-bottom: 0.6510416666666666vw;">Connect</div>
+                            <div class="ABC"><b>Connect</b></div>
                         
                                 <img src="Dyno_conect.png" id = "motto_card_img" >
                                
@@ -433,7 +450,7 @@
                         <div class="col-sm-12 col-md-12 col-lg-4" id = "motto_card_div"  >
                             <div class="container-fluid motto_card" style="background-color: white; border: 1px solid black;">
                             
-                            <div class="ABC" style = "padding-bottom: 0.6510416666666666vw;">Empower</div>
+                            <div class="ABC"><b>Empower</b></div>
                         
                                 <img src="Dyno_helping_each_other.jpg" id = "motto_card_img" >
                                
@@ -522,9 +539,9 @@
                 <img src="testimonial.jpg" id = "testimonial_img" >
             </div>
             <div class="col-md-5" id = "testimonial_text">
-                <h4 style="text-align: left; font-size: 1.6276041666666667vw;">Dr. Amreen Fatima</h4>
-                <h6 style="text-align: left; font-size: 0.9765625vw;">“Mental Health Processional, Psychologist, Career Counsellor & Analyst”</h6>
-                <p style="text-align: left; font-size: 1.5208333333333333vw; text-align: justify;">"Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.”</p>
+                <h4 style="text-align: left; font-size:1.5rem;">Dr. Amreen Fatima</h4>
+                <h6 style="text-align: left; font-size: 1.5rem;">“Mental Health Processional, Psychologist, Career Counsellor & Analyst”</h6>
+                <p style="text-align: left; font-size: 1.5rem; text-align: justify;">"Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.”</p>
             </div>
             <div class="col-md-2"></div>
         </div>
@@ -535,7 +552,7 @@
                 <div class="col-sm-5">
                     <div class="row">
                         <div class="col-sm-4">
-                            <a href="index.html"><img src="Dyno_logo.png" style="width: 5.208333333333333vw;"  alt="centered image" style = "height: 100%; width:100%"></a>
+                            <a href="index.html"><img src="Talkipy_Logo.png" style="width: 5.208333333333333vw;"  alt="centered image" style = "height: 100%; width:100%"></a>
                         </div>
                         <div class="col-sm-5">
                         <h1 style="margin-top: 1.6276041666666667vw;"><b>Talkipy</b></h1>
