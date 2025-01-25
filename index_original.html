@@ -26,6 +26,9 @@
         font-size: 2rem;
         border-radius: 30px;
     }
+    #what_is_talkipy{
+        max-width: fit-content;
+    }
     #But_i_must{
         margin:1.3020833333333333vw; 
         padding:1.3020833333333333vw; 
@@ -93,6 +96,14 @@
         position: relative;
         top:10%;  
     }
+    .still_doubtful_textspace{
+        position: absolute; 
+        top: 25%; 
+        left: 25%; 
+        transform: translate(-50%, -20%); 
+        color: #072753; 
+        text-align: center;
+    }
     #still_doubtful_heading{
         font-size: 2.2786458333333335vw; 
         color: #072753; 
@@ -109,9 +120,12 @@
         text-align: center;
     }
     #still_doubtful_img{
-        width: 100%; 
+        max-width: 100%; 
         height: auto;
     } 
+    #work_with_us_img{
+        max-width: 100%;
+    }
     #work_with_us_heading{
         font-size: 2.2786458333333335vw;
         color: #072753;
@@ -239,11 +253,13 @@
         ;
     }
     #stilldoubtful {
-        background-color: #A4E498;
         margin-top: 100vh; 
         padding-top: 60%; 
         margin-left: 30%;
         margin-bottom: 30vh;
+    }
+    .still_doubtful_textspace{
+        background-color: #A4E498;
     }
     #still_doubtful_heading{
         font-size: 20px;
@@ -261,11 +277,13 @@
     #still_doubtful_img{
         display: none;
     }
+    .work_with_us_textarea{
+        background-color: #A4E498;
+    }
     #work_with_us_img{
      display:none;   
     }
     #work_with_us_heading{
-        background-color: #A4E498;
         font-size: 20px;
     }
     #work_with_us_text{ 
@@ -504,7 +522,7 @@
     <div class="container-fluid " id = "stilldoubtful">
         <div class="row" style="margin: 0; padding: 0; position: relative;">
             <img src="still_doubtful.png" id = "still_doubtful_img" style="width: 100%; height: auto;">
-            <div class="col-md-5" style="position: absolute; top: 25%; left: 25%; transform: translate(-50%, -20%); color: #072753; text-align: center;">
+            <div class="col-md-5 still_doubtful_textspace">
                 <h1  id = "still_doubtful_heading"><b>Still Doubtful</b></h1>
                 <p id = "still_doubtful_text">
                     Your privacy is our first and foremost concern. <br>
@@ -515,7 +533,7 @@
             </div>
         </div>
     </div>
-        <div class="row" style = "position:relative;">
+        <div class="row work_with_us_textarea" style = "position:relative;">
             <img src = "work_with_us.png" id = "work_with_us_img">
             <div class="col-md-1"></div>
         <div class="col-md-6" id = "work_with_us_text" >
@@ -584,7 +602,7 @@
                     <h3>Support</h3>
                     <a href="contact.html"><p>Contact Us</p></a>
                     <a href="Privacy.html"><p>Privacy Policy</p></a>
-                    <div class="row" style="text-align: center; margin-left: - 2.6041666666666665vw;">
+                    <div class="row d-flex" style="text-align: center; margin-left: - 2.6041666666666665vw;">
                         <a href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:1.953125vw;padding: 1.6276041666666667vw;"></i></a>
                         <a href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:1.953125vw;padding: 0.9765625vw;"></i></a>                
                         <a href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:1.953125vw;padding: 0.9765625vw;"></i></a> 

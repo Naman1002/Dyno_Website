@@ -1,0 +1,381 @@
+#hero_section{
+    max-width: 100%;
+}
+#image_div{
+    min-width:60%;
+}
+#hometop_image{
+    max-width:100%;
+    margin-top:4.9446614583rem;
+    margin-left: 20px;
+}
+#hometop_text{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 9.375rem;
+    min-width:300px;
+    padding-right: 0;
+}
+#hometop_caption{
+    font-size: 50px;
+}
+#hometop_subheading{
+    text-align: left;
+    color: #28384E; 
+    font-size:15px;
+}
+#free_chat_btn{
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    font-weight: 700;
+}
+#what_is_talkipy{
+    position:relative;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#what_is_talkipy_img{ 
+    max-width:100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#text_overlay{
+    margin-top: 20px;
+    font-size: 1rem;
+    width:30%;
+    margin-bottom: 20px;
+    position: absolute;  
+    text-align:left; 
+    left:60%;
+    top:2%;
+}
+#custom_text_width{
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+#what_we_bring_section{
+    margin-top: 30px;
+}
+#what_we_bring_heading{
+    display: flex;
+    justify-content:center;
+}
+#what_we_bring_content{
+    margin-left:8.138020833333334vw; 
+    margin-top: 3.2552083333333335vw;
+    margin-bottom: 3.2552083333333335vw;
+}
+.svg_img{
+    height:auto ;
+    width:80px;
+    padding-left: .5208333333333333rem;
+    margin-right: 1.25rem;
+}
+#girl_texting{
+    width:100%;
+}
+#homemotto{
+    background-color: #A4E498;
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    padding-left: 0; 
+    margin-left: 0;
+    padding-right: 0; 
+    margin-right: 0;
+    margin-top: 20px;
+}
+#ourmotto{
+    position:absolute; 
+    transform: translate(-50%, -20%);
+    left:50%;
+    top:20%;   
+    margin-top: 0;
+    align-items: center;
+    max-width: 100%;
+}
+#our_motto_img{
+    max-width:100%;
+}
+#our_motto_title{
+    text-align: center;
+    font-weight: 700; 
+    margin-bottom:1rem;
+    padding-bottom: 0;
+}
+#our_motto_caption{
+    text-align: center; 
+    margin-bottom: 1rem;
+    padding-bottom: 0;
+}
+#card_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-custom {
+    display: flex;
+    justify-content: center;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    margin:20px;
+} 
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-img{
+    margin-top: 10%;
+    height:75px;
+    max-width: 25%;
+    padding-bottom:1.3020833333333333rem;
+}
+#stilldoubtful{
+    margin: 0; 
+    padding: 0; 
+    position: relative;
+    background-color: #A4E498;
+}
+#still_doubtful_img_container{
+    margin: 0;
+    padding: 0; 
+    position: relative;
+    top:10%;
+    max-width: 100%; 
+    height: auto;
+}
+#still_doubtful_img{
+    max-width: 100%; 
+    height: auto;
+}
+#still_doubtful_textspace{
+
+    position: absolute; 
+    top: 5%; 
+    left:10%; 
+    color: #072753; 
+    text-align:left;
+    max-width: 50%;
+}
+#still_doubtful_heading{
+    color: #072753; 
+    margin: 0;
+    padding-bottom: 1.3020833333333333vw;
+}
+#still_doubtful_text{ 
+    color: #072753;
+}
+.cont5button{
+    text-align: center;
+}
+/* the parent element should be the one that is in the relative position */
+#work_with_us{
+    background-color: #A4E498;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+#work_with_us_img{
+    max-width: 100%;
+}
+#work_with_us_text{
+    position:absolute; 
+    left:40%;
+    top:10%;
+    width:50%;
+}
+#work_with_us_heading{
+    font-size: 2.2786458333333335rem;
+    color: #072753;
+}
+#work_with_us_content{
+    font-size: 1rem; 
+    text-align: justify; 
+    color: #072753;
+} 
+#container7{
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Horizontally center children */
+    justify-content: center; /* Vertically center children */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center the text content */
+    margin-top: 4rem;
+}
+#container9{
+    margin-top: 2rem;
+    color: #072753;
+}
+#testimonial_section {
+    display: flex; /* Enable flexbox for the row */
+    align-items: center;
+}
+#testimonial_heading{
+    text-align: center; 
+    font-size: 3.2552083333333335vw;
+}
+
+#testimonial_img {
+    width: 30%; /* Adjust the image width for smaller screens */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#testimonial_text {
+    width: 70%; /* Make the text width responsive */
+    text-align:left; /* Keep text justified */
+}
+#footer_image{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 1250px) {
+    #hero_section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #hometop_text{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    #hometop_subheading{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .container-fluid {
+        clear: both;
+    }
+    .col {
+        box-sizing: border-box;
+        flex: 1;
+        min-width: 0;
+        padding: 1rem;
+    }
+    #what_is_talikpy{
+        position: relative;
+        display: flex;
+        top: 0;
+        margin-top: 2rem;
+    }
+    #what_is_talkipy_img{
+        display:none;
+    }
+    #text_overlay{
+        position: relative;
+        width: 80%;
+        left:10%;
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        text-align: center;
+    }
+    #what_we_bring_content{
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        justify-content: center;
+    }
+    #what_we_bring_content{
+        height:70%
+    }
+    #girl_texting{
+        display: none;
+    }
+    #homemottto{
+        overflow: hidden;
+        max-width:100%;
+        margin-top: 2rem;
+    }
+    #our_motto_img{
+        display: none;
+    }
+    #ourmotto{
+        position: relative; /* Change from absolute to relative */
+        margin-top: 2rem;
+        top:0;
+        transform: none;
+        left:0;
+    }
+    #stilldoubtful{
+        width:100%;
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        justify-content: center;
+    }
+    #still_doubtful_img{
+        display: none;
+    }
+    #still_doubtful_textspace{
+        position: relative;
+        left:0;
+        width: 100%;
+        text-align: center; 
+    }
+    #work_with_us{
+        width:100%;
+        display: flex; /* Use Flexbox */
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        justify-content: center;
+        margin-bottom:2rem;
+        text-align: center;
+    }
+    #work_with_us_img{
+        display: none;
+    }
+    #work_with_us_text{
+        left:0;
+        width: 70%;
+        position: relative;
+        text-align: center;
+    }
+    #container7 {
+        margin-top: 10%; /* Reduce top margin for smaller screens */
+    }
+
+    #testimonial_section {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    #testimonial_img {
+        width: 70%; /* Adjust image width for smaller screens */
+    }
+
+    #testimonial_text {
+        width: 90%; /* Expand text width for better readability */
+    }
+}

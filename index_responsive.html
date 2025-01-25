@@ -1,150 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="talkipy.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<style>
-/* General Styling */
-body {
-    font-family: Montserrat, sans-serif;
-}
-
-h1, h3, h4, h6, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Container Styling */
-.container-fluid {
-    padding: 15px;
-}
-
-/* Hero Section */
-#hero_section img {
-    width: 100%;
-    height: auto;
-    max-width: 600px; /* Prevents the image from becoming too wide */
-    margin: 20px auto;
-    display: block; /* Center the image */
-}
-
-/* What is Talkipy Section */
-#what_is_talkipy {
-    width: 100%;
-    max-width: 500px; /* Set a maximum width for the image */
-    height: auto;
-    display: block;
-    margin: 0 auto 20px; /* Center the image */
-}
-
-#But_i_must {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: justify;
-    padding: 20px;
-    background-color: #A4E498;
-}
-
-/* What We Bring Section */
-.svg_img {
-    width: 60px;
-    height: auto;
-    margin: 0 auto;
-    display: block; /* Center small SVG images */
-}
-
-/* Homemoto Section */
-.homemoto {
-    position: relative;
-    margin-bottom: 40px;
-}
-
-#our_motto_img {
-    width: 100%;
-    height: auto;
-    max-width: 800px; /* Prevents oversized image */
-    display: block;
-    margin: 0 auto;
-}
-
-.ourmotto {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-    text-align: center;
-    width: 60%;
-    margin-top: 0;
-}
-
-/* Still Doubtful Section */
-#still_doubtful_img {
-    width: 100%;
-    height: auto;
-    max-width: 600px; /* Limit the size */
-    margin: 20px auto; /* Center the image */
-}
-
-/* Testimonial Section */
-#testimonial_img {
-    width: 100%;
-    height: auto;
-    max-width: 400px; /* Prevent oversized testimonial images */
-    margin: 20px auto; /* Center the image */
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    #hero_section img {
-        width: 90%;
-    }
-
-    #what_is_talkipy {
-        width: 90%;
-        max-width: 300px; /* Reduce size for smaller screens */
-    }
-
-    #But_i_must {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    #our_motto_img {
-        width: 90%;
-        max-width: 500px; /* Adjust image size for mobile */
-    }
-
-    #still_doubtful_img {
-        width: 90%;
-        max-width: 500px;
-    }
-
-    #testimonial_img {
-        width: 70%;
-        max-width: 300px;
-    }
-
-    .ourmotto {
-        position: static; /* Dynamically adjust for mobile */
-        transform: none;
-        margin: 20px auto;
-    }
-}
-
-
-
-</style>
 <body style="font-family: Montserrat;">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg">
+    <nav class="navbar fixed-top navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -153,56 +21,59 @@ h1, h3, h4, h6, p {
               <span class="icon-bar"></span>                        
             </button>
             <a class="navbar-brand" style="margin-top: -19px; margin-left: -1.3020833333333333vw;" href="index.html">
-                <img src="Dyno_logo.png"  alt="Talkipy"  class="img-fluid1" style = "height: 100%; width:100%"></a>
+                <img src="Talkipy_Logo.png"  alt="Talkipy"  class="img-fluid1" ></a>
             <a class="navbar-brand" style="margin-top: -17px;" href="index.html">
-                <img src="Dyno_logo.png" alt="Talkipy" class="img-fluid1" style = "height: 100%; width:100%"></a>
+                <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid1" ></a>
           </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="letschat.html">Let's Chat</a></li>
-                <li><a href="blogpage.html">Blogs</a></li>
-                <!--li><a href="community.html">Community</a></li-->
-                <li><a href="contact.html">Contact Us</a></li>
-                <!--li ><a class="signin" href="">Sign In</a></li-->
+          <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse " id="myNavbar">
+            <ul class="nav navbar-nav ms-auto ">
+                <li><a class="nav-link active"  href="index.html">Home</a></li>
+                <li><a class="nav-link active"  href="aboutus.html">About Us</a></li>
+                <li><a class="nav-link active"  href="letschat.html">Let's Chat</a></li>
+                <li><a class="nav-link active"  href="blogpage.html">Blogs</a></li>
+                <li><a class="nav-link active"  href="contact.html">Contact Us</a></li>
             </ul>
           </div>
         </div>
     </nav>
-        <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6" id = "hero_section" style = "align-items: center;">
-                <img src="dyno_hero_section.png"  height=auto width=100% style="margin-top:5.208333333333333vw;">
-            </div>
-            <div class="col-md-5" id = "hometop" style=>
-                <h1 class="hometop"><b>Talks,<br>Warmth<br>& Love</b></h1>
-                <h3 style="text-align: center; color: #28384E; font-size:15px;"><b>Opening up is tough but we make it easy for you</b></h3>
-                <button type="button" class="btn btn-success centering2"><p id="buttton"><a href="javascript:void(Tawk_API.toggle())" style="color: white;">Free Chat</a></p></button>
-            </div>
-        </div>   
+    <div class = "row" id = "hero_section">
+        <div class = "col-sm-6 text-center" id = "image_div">
+            <img src="dyno_hero_section.png" id = "hometop_image">
         </div>
-    
-    <div class="container-fluid" id="container01">
-        
-        <div class="row">
-            <div class="col-sm-4" style = "margin:0; padding:0;">
-                <img src="what_is_talkipy.png" id = "what_is_talkipy">
-            </div>
-            <div class="col-sm-6" id="But_i_must">
-                <div class="We_are_here"><h1><b>What is Talkipy</b></h1></div>
-                <div class = "custom_text_width">We've all dealt with issues that we were never able to speak about, we've all had times when we wanted to share something but had no one who would listen...<br> So Talkipy is our solution for you!! 
-                    Our initiative is a platform where you can find a person to talk, vent, and let go of those bottled-up emotions. <br>
-                    There is more! We also provide you with customized sessions with professionals and help you find the most suitable therapist according to your requirements because after all your mental health is our priority!!!</div>
-            </div>
-            <div class="col-sm-1"></div>
+        <div class = "col-sm-4" id = "hometop_text">
+            <h1 id="hometop_caption"><b>Talks,<br>Warmth<br>& Love</b></h1>
+            <h3 id = "hometop_subheading"><b>Opening up is tough but we make it easy for you</b></h3>
+            <a class="btn btn-success" id = "free_chat_btn" href="javascript:void(Tawk_API.toggle())" >Free Chat</a>
         </div>
     </div>
-    <div class="container-fluid" >
-        <h1 class="what_we_bring" ><h1 id = "what_we_bring_heading"><b>What We Bring</b></h1>
-        <div class="row">
-            <div class="col-sm-1"></div>
-                <div class="col-sm-6">
+    <div class = "container-fluid" id = "what_is_talkipy">
+        <div class="col" id = "what_is_talkipy_container">
+            <img src="what_is_talkipy.png" id = "what_is_talkipy_img">
+        </div>
+        <div class="col" id="text_overlay">
+            <h1><b>What is Talkipy</b></h1>
+            <br>
+            <p class = "custom_text_width">We've all dealt with issues that we were never able to speak about, we've all had times when we wanted to share something but had no one who would listen...<br> So Talkipy is our solution for you!! 
+                Our initiative is a platform where you can find a person to talk, vent, and let go of those bottled-up emotions. <br>
+                There is more! We also provide you with customized sessions with professionals and help you find the most suitable therapist according to your requirements because after all your mental health is our priority!!!
+            </p>
+        </div>
+    </div>
+    <div class="container" id = "what_we_bring_section">
+        <div class="col" id = "what_we_bring_heading" ><h1><b>What We Bring</b></h1></div>
+        <div class="row" id = "what_we_bring_content">
+                <div class="col">
                     <div class="row">
                         <table>
                             <tr>
@@ -211,8 +82,8 @@ h1, h3, h4, h6, p {
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"><h2>Free Chat</h2></p>
-                                    <h3 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h3>
+                                    <p class="bringhead"><h1><b>Free Chat</b></h1></p>
+                                    <h4 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h4>
                                 </th>
                             </tr>
                         </table>
@@ -223,10 +94,9 @@ h1, h3, h4, h6, p {
                                 <th>
                                     <img class = "svg_img" src="calender.svg" alt="">
                                 </th>
-                                
                                 <th class = "th_text">
-                                    <p class="bringhead"> <h2>Book a Session</h2></p>
-                                    <h3 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
+                                    <p class="bringhead"> <h1><b>Book a Session</b></h1></p>
+                                    <h4 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
                                 </th>
                             </tr>
                         </table>
@@ -239,204 +109,153 @@ h1, h3, h4, h6, p {
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"><h3>A suitable therapist</h3></p>
-                                    <h3 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
+                                    <p class="bringhead"><h1><b>A suitable therapist</b></h1></p>
+                                    <h4 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
                                 </th>
                             </tr>
                         </table>
                     </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col">
                  <img id = "girl_texting"src="Dyno_girl_texting.jpg">
             </div>
-            <div class="col-sm-1"></div>
         </div>
     </div>
-    <div class="container-fluid homemoto">
-                <img src = "Our_Motto.png" id = "our_motto_img">
-                <div class="row ourmotto" >
-                    <div class="col-md-12">
-                        <h1 style="font-size: 3.2552083333333335vw; font-weight: bold; margin-bottom: 1.953125vw;"><b>Our Motto</b></h1>
+    <div class="container-fluid" id = "homemotto">
+        <img src = "Our_Motto.png" id = "our_motto_img">
+        <div class = "container" id = "ourmotto">
+            <div class="col" id = "our_motto_title">
+                <h1><b>Our Motto</b></h1>
+            </div>
+            <div class="col" id = "our_motto_caption">
+                <p>Our intention is to create a safe space that will help you heal better.</p>
+            </div>
+            <div class = "container" >
+                <div class="container_custom" id = "card_row">
+                    <div class="col_custom">
+                        <div class="card">
+                            <h5 class="card-title"><b>Support</b></h5>
+                            <img src="Dyno_support.jpg" class="card-img">
+                            <div class="card-body">
+                            <p class="card-text">Connecting you to the right professionals</p>
+                            </div>
+                        </div>
                     </div>
-                        <div class="col-md-12">
-                            <p style="text-align: center; margin-bottom: 1.953125vw;">Our intention is to create a safe space that will help you heal better.  </p>
+                    <div class="col_custom">
+                        <div class="card">
+                            <h5 class="card-title"><b>Connect</b></h5>
+                            <img src="Dyno_conect.png" class="card-img">
+                            <div class="card-body">
+                            <p class="card-text">Empowering  you to reach out and seek help.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class = "row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-10 d-flex justify-content-center flex-wrap" style = "margin-top: 1.3020833333333333vw;">
-                        <div class="col-sm-6 col-md-6 col-lg-4" id = "motto_card_div" >
-                            <div class="container-fluid motto_card" style = "background-color: white; border: 1px solid black;">
-                            
-                            <div class="ABC" style = "padding-bottom: 0.6510416666666666vw;">Support </div>
-                        
-                                <img src="Dyno_support.jpg" id = "motto_card_img" >
-                               
-                               <div class="shrinking1" style = "padding-bottom:4.8828125vw;">
-                                Being your support system whenever in need.
-                               </div>
-                               
-                               </div>
-            
+                    <div class="col_custom">
+                        <div class="card">
+                            <h5 class="card-title"><b>Empower</b></h5>
+                            <img src="Dyno_helping_each_other_small.jpg" class="card-img">
+                            <div class="card-body">
+                                <p class="card-text">Empowering minds,healing hearts, one session at a time.</p>
+                            </div>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-4" id = "motto_card_div" >
-                            <div class="container-fluid motto_card" style="background-color: white; border: 1px solid black;" >
-                            
-                            <div class="ABC" style = "padding-bottom: 0.6510416666666666vw;">Connect</div>
-                        
-                                <img src="Dyno_conect.png" id = "motto_card_img" >
-                               
-                               <div class="shrinking1" style = "padding-bottom:4.8828125vw;">
-                                Connecting you to the right professionals.
-                               </div>
-                                
-                               </div>
-            
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4" id = "motto_card_div"  >
-                            <div class="container-fluid motto_card" style="background-color: white; border: 1px solid black;">
-                            
-                            <div class="ABC" style = "padding-bottom: 0.6510416666666666vw;">Empower</div>
-                        
-                                <img src="Dyno_helping_each_other.jpg" id = "motto_card_img" >
-                               
-                               <div class="shrinking1" style = "padding-bottom:4.8828125vw;">
-                                Empowering  you to reach out and seek help.
-                               </div>
-                                
-                               </div>
-            
-                        </div>
-                        </div>
-                        
                     </div>
-                    
-            
+                </div>
+            </div>
         </div>
     </div>
-    <!--div class="container-fluid" id="container4">
-        <div class="row">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-9">
-                      <h1 style="text-align: center;font-size: 65px;"><b>Topic heading</b></h1>
+    <div class="container-fluid" id = "stilldoubtful">
+            <div class = "col" id = "still_doubtful_img_container">
+                <img src="still_doubtful.png" id = "still_doubtful_img">
             </div>
-            <div class="col-sm-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-            <div class="col-md-4">
-                <div class="rotated-half-circle">
-                    <h1 id="qwert"><b>300+</b></h1>
-                </div>
-                <h1 style="text-align: center; font-size: 45px;"><b>Happy customers</b></h1>
-            </div>
-            <div class="col-md-4 col-lg-12">
-                <div class="rotated-half-circle">
-                    <h1 id="qwert"><b>300+</b></h1>
-                </div>
-                <h3 style="text-align: center; font-size: 45px;"><b>Happy Customers</b></h3>
-            </div>
-            <div class="col-md-4">
-                <div class="rotated-half-circle">
-                    <h1 id="qwert"><b>70%</b></h1>
-                </div>
-                <h1 style="text-align: center; font-size: 45px;"><b>Current Project Capacity</b></h1>
-            </div>
-        </div>
-            <div class="col-md-1"></div>
-        </div>
-    </div-->
-    <div class="container-fluid " id = "stilldoubtful">
-        <div class="row" style="margin: 0; padding: 0; position: relative;">
-            <img src="still_doubtful.png" id = "still_doubtful_img" style="width: 100%; height: auto;">
-            <div class="col-md-5" style="position: absolute; top: 25%; left: 25%; transform: translate(-50%, -20%); color: #072753; text-align: center;">
+            <div class="col" id = "still_doubtful_textspace">
                 <h1  id = "still_doubtful_heading"><b>Still Doubtful</b></h1>
                 <p id = "still_doubtful_text">
-                    Your privacy is our first and foremost concern. <br>
-                    We understand how difficult it is to open up and speak about those troubling thoughts. That is why we are presenting you a safe space, where all your information will remain confidential and your identity anonymous. It's only you in a safe place with a trustworthy friend. <br><br>
-                    Check out our Privacy Policy here<br>
-                    <a href="Privacy.html" class= "btn btn-warning cont5button">Privacy Policy</a>
+                    Your privacy is our first and foremost concern. 
+                    We understand how difficult it is to open up and speak about those troubling thoughts.
+                    That is why we are presenting you a safe space, where all your information will remain 
+                    confidential and your identity anonymous. 
+                    It's only you in a safe place with a trustworthy friend.
+                    Check out our Privacy Policy here.
                 </p>
-            </div>
-        </div>
+                <br>
+                    <a href="Privacy.html" class= "btn btn-warning ">Privacy Policy</a>
+                    </div>
     </div>
-        <div class="row" style = "position:relative;">
-            <img src = "work_with_us.png" id = "work_with_us_img">
-            <div class="col-md-1"></div>
-        <div class="col-md-6" id = "work_with_us_text" >
-                <h1 id = "work_with_us_heading"><b>Interested To Work With Us?</b></h1>
-                <P style="font-size: 1.5208333333333333vw; text-align: justify; color: #072753;">“If you are someone who is passionate about working in the field of mental health and strongly believes that small individual efforts make an ocean of difference, then we would love to have you on board. 
-                    <br><br>Check out the form below and find where you fit in." </P>
-                <!--div class="form-group col-xs-9">
-                    <input type="text" class="form-control" placeholder="Enter your email address" name="search">
-                  </div-->
-                <a href="https://forms.gle/pwzk3GKSpSwoT2b2A"  class="btn btn-warning" id = "join_us_link">Join Us</a>
+
+        <div class="container-fluid" id = "work_with_us">
+            <div class = "col">
+                <img src = "work_with_us.png" id = "work_with_us_img">
             </div>
+            <div class="col" id = "work_with_us_text" >
+                    <h1 id = "work_with_us_heading"><b>Interested To Work With Us?</b></h1>
+                    <p id ="work_with_us_content">If you are someone who is passionate about working in the field of mental health and strongly believes that
+                        <br>small individual efforts make an ocean of difference, then we would love to have you on board. 
+                        <br>Check out the form below and find where you fit in." </p>
+                        <a href="https://forms.gle/pwzk3GKSpSwoT2b2A"  class="btn btn-warning" id = "join_us_link">Join Us</a>
             </div>
-           <div class="col-md-1"></div>
         </div>
-    
-    <div class="container-fluid" id="container7">
-                <h1 style="text-align: center; font-size: 3.2552083333333335vw;"><b>Testimonial</b></h1>
-        <div class="row" id = "testimonial_section" >
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
-                <img src="testimonial.jpg" id = "testimonial_img" >
+        <div class="container" id="container7">
+            <h1 id = "testimonial_heading"><b>Testimonial</b></h1>
+            <div class="row" id = "testimonial_section" >
+                <div class="col-5"  id = "testimonial_img">
+                    <img src="testimonial.jpg">
+                </div>
+                <div class="col-7" id = "testimonial_text">
+                    <h4 style="text-align: left; font-size:1;">Dr. Amreen Fatima</h4>
+                    <h6 style="text-align: left; font-size:1;">Mental Health Processional, Psychologist, Career Counsellor & Analyst</h6>
+                    <p style="text-align: left; font-size:1; text-align: justify;">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
+                </div>
             </div>
-            <div class="col-md-5" id = "testimonial_text">
-                <h4 style="text-align: left; font-size: 1.6276041666666667vw;">Dr. Amreen Fatima</h4>
-                <h6 style="text-align: left; font-size: 0.9765625vw;">“Mental Health Processional, Psychologist, Career Counsellor & Analyst”</h6>
-                <p style="text-align: left; font-size: 1.5208333333333333vw; text-align: justify;">"Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.”</p>
-            </div>
-            <div class="col-md-2"></div>
         </div>
-    </div>
-    <footer class="container-fluid" id="container9">
+
+
+
+    <footer class="container-fluid clearfix" id="container9">
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-5">
                     <div class="row">
                         <div class="col-sm-4">
-                            <a href="index.html"><img src="Dyno_logo.png" style="width: 5.208333333333333vw;"  alt="centered image" style = "height: 100%; width:100%"></a>
+                            <a href="index.html"><img src="footer_image_new.jpg" id = "footer_image"></a>
                         </div>
                         <div class="col-sm-5">
                         <h1 style="margin-top: 1.6276041666666667vw;"><b>Talkipy</b></h1>
-                        <h4>Talks, Warmth & Love</h4>
+                        <p style = "font-size: 1rem;">Talks, Warmth & Love</p>
                         </div>
-                        <div class="col-sm-3"></div>
                     </div>
-                            <h4>Subscribe to our Newsletter</h4>
-                        <form method="POST" autocomplete="off" name="google-sheet1" onsubmit="return false">
-                            <div class="row">
-                                <div class="col-xs-9">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" name="EmailId" placeholder="Enter your email address">
-                                    </div>
-                                </div>
-                                <button style="margin-top:5px" type="submit" name="submit1" class="btn btn-warning ">Send</button>
+                    <p>Subscribe to our Newsletter</h4>
+                    <form method="POST" autocomplete="off" name="google-sheet1" onsubmit="return false">
+                        <div class="form-group" style="font-size: .5rem;">
+                            <div class="row align-items-center"> 
+                              <div class="col-auto"> 
+                                <input type="text" class="form-control" name="EmailId" placeholder="Email address">
+                              </div>
+                              <div class="col-auto"> 
+                                <button type="submit" name="submit1" class="btn btn-warning">Send</button>
+                              </div>
                             </div>
-                        </form>
+                          </div>
+                    </form>
                 </div>
                 <div class="col-sm-2 " style="margin-top:1.953125vw;">
                     <h3>Company</h3>
-                    <a href="aboutus.html"><p>About Us</p></a>
-                    <a href="letschat.html"><p>Let's Chat</p></a>
+                    <a class = "nav-link mb-2" href="aboutus.html"><p>About Us</p></a>
+                    <a class = "nav-link mb-2" href="letschat.html"><p>Let's Chat</p></a>
                     <!--a href="letschat.html"><p>Blog</p></a-->
-                    <a href="blogpage.html"><p>Blogs</p></a>
-                    <a href="feedback.html"><p>Feedback</p></a>
+                    <a class = "nav-link mb-2" href="blogpage.html"><p>Blogs</p></a>
+                    <a class = "nav-link mb-2" href="feedback.html"><p>Feedback</p></a>
                 </div>
                 <div class="col-sm-3" style="margin-top:1.953125vw;">
                     <h3>Support</h3>
-                    <a href="contact.html"><p>Contact Us</p></a>
-                    <a href="Privacy.html"><p>Privacy Policy</p></a>
-                    <div class="row" style="text-align: center; margin-left: - 2.6041666666666665vw;">
-                        <a href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:1.953125vw;padding: 1.6276041666666667vw;"></i></a>
-                        <a href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:1.953125vw;padding: 0.9765625vw;"></i></a>                
-                        <a href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:1.953125vw;padding: 0.9765625vw;"></i></a> 
-                        <a href="https://www.youtube.com/channel/UCJoajhdB-lFPRJxmWFWZtiA"><i class="fa fa-youtube" style="font-size:1.953125vw;padding: 1.5208333333333333vw;"></i></a>               
-                    </div>
+                    <a class = "nav-link mb-2" href="contact.html"><p>Contact Us</p></a>
+                    <a class = "nav-link mb-2" href="Privacy.html"><p>Privacy Policy</p></a>
+                    <ul class = "list-inline footer-links">
+                        <a class = "nav-item" href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:1.953125vw;color:grey; padding: 0;"></i></a>
+                        <a class = "nav-item" href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:1.953125vw; color:grey; padding: 0.9765625vw;"></i></a>                
+                        <a class = "nav-item" href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:1.953125vw;color:grey; padding: 0.9765625vw;"></i></a> 
+                        <a class = "nav-item" href="https://www.youtube.com/channel/UCJoajhdB-lFPRJxmWFWZtiA"><i class="fa fa-youtube" style="font-size:1.953125vw; color:grey; padding: 1.5208333333333333vw;"></i></a>               
+                    </ul>
                 </div>
-                <div class="col-sm-1"></div>
             </div>
         </footer>
 <script type="text/javascript">
