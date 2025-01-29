@@ -12,46 +12,38 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="font-family: Montserrat;">
-    <nav class="navbar fixed-top navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid"> <!-- Ensures full responsiveness -->
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid" style="height: 50px;">
+            </a>
+    
+            <!-- Navbar Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" style="margin-top: -19px; margin-left: -1.3020833333333333vw;" href="index.html">
-                <img src="Talkipy_Logo.png"  alt="Talkipy"  class="img-fluid1" ></a>
-            <a class="navbar-brand" style="margin-top: -17px;" href="index.html">
-                <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid1" ></a>
-          </div>
-          <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-          <div class="collapse navbar-collapse " id="myNavbar">
-            <ul class="nav navbar-nav ms-auto ">
-                <li><a class="nav-link active"  href="index.html">Home</a></li>
-                <li><a class="nav-link active"  href="aboutus.html">About Us</a></li>
-                <li><a class="nav-link active"  href="letschat.html">Let's Chat</a></li>
-                <li><a class="nav-link active"  href="blogpage.html">Blogs</a></li>
-                <li><a class="nav-link active"  href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
+    
+            <!-- Collapsible Navbar Content -->
+            <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="letschat.html">Let's Chat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blogpage.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    
+    
     <div class = "row" id = "hero_section">
-        <div class = "col-sm-6 text-center" id = "image_div">
+        <div class = "col" id = "image_div">
             <img src="dyno_hero_section.png" id = "hometop_image">
         </div>
-        <div class = "col-sm-4" id = "hometop_text">
+        <div class = "col" id = "hometop_text">
             <h1 id="hometop_caption"><b>Talks,<br>Warmth<br>& Love</b></h1>
             <h3 id = "hometop_subheading"><b>Opening up is tough but we make it easy for you</b></h3>
             <a class="btn btn-success" id = "free_chat_btn" href="javascript:void(Tawk_API.toggle())" >Free Chat</a>
@@ -83,7 +75,7 @@
                                 
                                 <th class = "th_text">
                                     <p class="bringhead"><h1><b>Free Chat</b></h1></p>
-                                    <h4 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h4>
+                                    <h5 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h5>
                                 </th>
                             </tr>
                         </table>
@@ -96,7 +88,7 @@
                                 </th>
                                 <th class = "th_text">
                                     <p class="bringhead"> <h1><b>Book a Session</b></h1></p>
-                                    <h4 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
+                                    <h5 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
                                 </th>
                             </tr>
                         </table>
@@ -110,7 +102,7 @@
                                 
                                 <th class = "th_text">
                                     <p class="bringhead"><h1><b>A suitable therapist</b></h1></p>
-                                    <h4 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
+                                    <h5 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
                                 </th>
                             </tr>
                         </table>
@@ -194,19 +186,53 @@
                         <a href="https://forms.gle/pwzk3GKSpSwoT2b2A"  class="btn btn-warning" id = "join_us_link">Join Us</a>
             </div>
         </div>
-        <div class="container" id="container7">
-            <h1 id = "testimonial_heading"><b>Testimonial</b></h1>
-            <div class="row" id = "testimonial_section" >
-                <div class="col-5"  id = "testimonial_img">
-                    <img src="testimonial.jpg">
-                </div>
-                <div class="col-7" id = "testimonial_text">
-                    <h4 style="text-align: left; font-size:1;">Dr. Amreen Fatima</h4>
-                    <h6 style="text-align: left; font-size:1;">Mental Health Processional, Psychologist, Career Counsellor & Analyst</h6>
-                    <p style="text-align: left; font-size:1; text-align: justify;">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
+        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-center m-auto">
+                <h1 id = "testimonial_heading"><b>Testimonial</b></h1>
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Carousel -->
+                    <div class="carousel-inner"  id = "carousel-start">
+                        <div class="carousel-item active text-center">
+                            <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
+                                <img class="d-block rounded-circle" src="testimonial-face.png" alt="First Slide">
+                            </div>
+                            <p class="testimonial">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
+                            <p class="overview"><b>Dr. Amreen Fatima</b><br>Mental Health Processional, Psychologist, Career Counsellor & Analyst</p>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
+                                <img class="d-block rounded-circle" src="testimonial-face.png" alt="Second Slide">
+                            </div>
+                            <p class="testimonial">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
+                            <p class="overview"><b>Dr. Amreen Fatima</b><br> Mental Health Processional, Psychologist, Career Counsellor & Analyst</p>
+                        </div>
+                        <div class="carousel-item text-center">
+                            <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
+                                <img class="d-block rounded-circle" src="testimonial-face.png" alt="Third Slide">
+                            </div>
+                            <p class="testimonial">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
+                            <p class="overview"><b>Dr. Amreen Fatima</b><br>Mental Health Processional, Psychologist, Career Counsellor & Analyst</p>
+                        </div>
+                    </div>
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.min.js"></script>
 
 
 
@@ -216,7 +242,7 @@
                 <div class="col-sm-5">
                     <div class="row">
                         <div class="col-sm-4">
-                            <a href="index.html"><img src="footer_image_new.jpg" id = "footer_image"></a>
+                            <a href="index.html"><img src="footer_image.png" id = "footer_image"></a>
                         </div>
                         <div class="col-sm-5">
                         <h1 style="margin-top: 1.6276041666666667vw;"><b>Talkipy</b></h1>
@@ -226,7 +252,7 @@
                     <p>Subscribe to our Newsletter</h4>
                     <form method="POST" autocomplete="off" name="google-sheet1" onsubmit="return false">
                         <div class="form-group" style="font-size: .5rem;">
-                            <div class="row align-items-center"> 
+                            <div class="row align-items-center" id = "newsletter_subscription"> 
                               <div class="col-auto"> 
                                 <input type="text" class="form-control" name="EmailId" placeholder="Email address">
                               </div>
@@ -237,7 +263,7 @@
                           </div>
                     </form>
                 </div>
-                <div class="col-sm-2 " style="margin-top:1.953125vw;">
+                <div class="col-sm-2 "  style="margin-top:1.953125vw;">
                     <h3>Company</h3>
                     <a class = "nav-link mb-2" href="aboutus.html"><p>About Us</p></a>
                     <a class = "nav-link mb-2" href="letschat.html"><p>Let's Chat</p></a>
