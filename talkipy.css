@@ -23,39 +23,45 @@ li{
     padding-right: 1rem;
 }
 #hero_section{
-    display: flex;
     margin-top: 8rem;
     margin-bottom: 10rem;
-
 }
 #image_div{
-    min-width:50%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    min-width:50%;
     padding-left: 0;
-    padding-right: 0;
-    
+    padding-right: 0; 
 }
 #hometop_image{
     max-width:100%;
-    margin-top:4.9446614583rem;
-    margin-left: 20px;
+    margin-top:0;
+    margin-left:0;
 }
 #hometop_text{
-    margin-left: 10px;
-    margin-top: 9.375rem;
-    min-width:300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    margin-top:0;
     padding-right: 0;
+    padding-left:0 ;
+    max-width: 100%;
 }
 #hometop_caption{
     font-size: 50px;
 }
 #hometop_subheading{
-    text-align: left;
+    text-align:left;
     color: #28384E; 
     font-size:15px;
 }
 #free_chat_btn{
     color: white;
+    width: auto;
+    align-self: flex-start;
     font-size: 1.25rem;
     border-radius: 30px;
     font-weight: 700;
@@ -89,7 +95,6 @@ li{
     top:2%;
 }
 #custom_text_width{
-    font-size: 1.2em;
     text-align: justify;
     line-height: 1.6;
     margin-top: 20px;
@@ -108,7 +113,7 @@ li{
 }
 .svg_img{
     height:auto ;
-    width:80px;
+    width:4.5rem;
     padding-left: .5208333333333333rem;
     margin-right: 1.25rem;
 }
@@ -171,7 +176,7 @@ li{
 
 .card{
     height: 350px;
-    width: 300px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,9 +216,8 @@ li{
     height: auto;
 }
 #still_doubtful_textspace{
-
     position: absolute; 
-    top: 5%; 
+    top: 25%; 
     left:10%; 
     color: #072753; 
     text-align:left;
@@ -252,7 +256,7 @@ li{
 }
 #work_with_us_content{
     font-size: 1rem; 
-    text-align:center; 
+    text-align:left; 
     color: #072753;
 } 
 
@@ -260,10 +264,7 @@ li{
     margin-top: 2rem;
     color: #072753;
 }
-#testimonial_section {
-    display: flex; /* Enable flexbox for the row */
-    align-items: center;
-}
+
 #testimonial_heading{
     text-align: center; 
     font-size:3rem;
@@ -298,7 +299,9 @@ li{
 	border-radius: 50%;
 }
 .carousel .testimonial {
-	padding: 30px 0 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .carousel .overview {	
 	font-style: italic;
@@ -324,6 +327,7 @@ li{
 }
 .carousel .carousel-indicators {
 	bottom: -40px;
+    width:90%;
 }
 .carousel-indicators li, .carousel-indicators li.active {
 	width: 10px;
@@ -366,6 +370,7 @@ li{
 }
 footer {
     background-color: goldenrod;
+    padding-bottom: 1rem;
     color: white;
 }
 
@@ -400,6 +405,9 @@ footer {
     #hometop_text{
         max-width: 80%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin-top: 1rem;
         padding-left: 0;
         padding-right: 0;
@@ -407,6 +415,9 @@ footer {
     #hometop_subheading{
         text-align: center;
         margin-top: 1rem;
+    }
+    #free_chat_btn{
+        align-self: center;
     }
     .container-fluid {
         clear: both;
@@ -427,13 +438,18 @@ footer {
         display:none;
     }
     #text_overlay{
-        background-color: #A4E498;
         position: relative;
+        background-color: #A4E498;
         width: 100%;
         left:0;
         top:0;
         display: flex;
         flex-direction: column; /* Stack children vertically */
+        text-align: center;
+        align-items: center;
+    }
+    #custom_text_width{
+        max-width: 70%;
         text-align: center;
     }
     #what_we_bring_content{
@@ -443,7 +459,7 @@ footer {
         justify-content: center;
     }
     #what_we_bring_content{
-        height:70%
+        height:70%;
     }
     #girl_texting{
         display: none;
@@ -452,6 +468,7 @@ footer {
         overflow: hidden;
         max-width:100%;
         margin-top: 2rem;
+        margin-bottom: 1rem;
     }
     #our_motto_img{
         display: none;
@@ -464,6 +481,7 @@ footer {
         left:0;
     }
     #stilldoubtful{
+        padding-top: 2rem;
         width:100%;
         display: flex; /* Use Flexbox */
         flex-direction: column; /* Stack content vertically */
@@ -476,7 +494,7 @@ footer {
     #still_doubtful_textspace{
         position: relative;
         left:0;
-        width: 100%;
+        max-width: 70%;
         text-align: center; 
     }
     #work_with_us{
@@ -497,9 +515,24 @@ footer {
         position: relative;
         text-align: center;
     }
+    #work_with_us_content{
+        text-align: center;
+    }
+    .form-group{
+        font-size: .5rem;
+    }
+    
+    #send-btn{
+        margin-top: 1rem;
+    }
 }
 @media only screen and (max-width: 750px){
-
+    #hero_section{
+        margin-top: 5rem;
+    }
+    #what_we_bring_content{
+        margin-left: 0;
+    }
     footer .row {
         flex-direction: column; /* Stacks elements vertically */
     }

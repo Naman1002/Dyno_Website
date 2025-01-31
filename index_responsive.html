@@ -16,7 +16,7 @@
         <div class="container-fluid"> <!-- Ensures full responsiveness -->
             <!-- Logo -->
             <a class="navbar-brand" href="#">
-                <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid" style="height: 50px;">
+                <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid" style="height: 75px;">
             </a>
     
             <!-- Navbar Toggle Button -->
@@ -40,10 +40,10 @@
     
     
     <div class = "row" id = "hero_section">
-        <div class = "col" id = "image_div">
+        <div class = "col-sm-7" id = "image_div">
             <img src="dyno_hero_section.png" id = "hometop_image">
         </div>
-        <div class = "col" id = "hometop_text">
+        <div class = "col-sm-5" id = "hometop_text">
             <h1 id="hometop_caption"><b>Talks,<br>Warmth<br>& Love</b></h1>
             <h3 id = "hometop_subheading"><b>Opening up is tough but we make it easy for you</b></h3>
             <a class="btn btn-success" id = "free_chat_btn" href="javascript:void(Tawk_API.toggle())" >Free Chat</a>
@@ -56,7 +56,7 @@
         <div class="col" id="text_overlay">
             <h1><b>What is Talkipy</b></h1>
             <br>
-            <p class = "custom_text_width">We've all dealt with issues that we were never able to speak about, we've all had times when we wanted to share something but had no one who would listen...<br> So Talkipy is our solution for you!! 
+            <p id = "custom_text_width">We've all dealt with issues that we were never able to speak about, we've all had times when we wanted to share something but had no one who would listen...<br> So Talkipy is our solution for you!! 
                 Our initiative is a platform where you can find a person to talk, vent, and let go of those bottled-up emotions. <br>
                 There is more! We also provide you with customized sessions with professionals and help you find the most suitable therapist according to your requirements because after all your mental health is our priority!!!
             </p>
@@ -74,8 +74,8 @@
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"><h1><b>Free Chat</b></h1></p>
-                                    <h5 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h5>
+                                    <p class="bringhead"><h2><b>Free Chat</b></h2></p>
+                                    <h6 class="hometext">An anonymous, instant chat platform, where you will find non-judgemental friends to open up to</h6>
                                 </th>
                             </tr>
                         </table>
@@ -87,8 +87,8 @@
                                     <img class = "svg_img" src="calender.svg" alt="">
                                 </th>
                                 <th class = "th_text">
-                                    <p class="bringhead"> <h1><b>Book a Session</b></h1></p>
-                                    <h5 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
+                                    <p class="bringhead"> <h2><b>Book a Session</b></h2></p>
+                                    <h6 class="hometext">A scheduled session prepared according to the needs of our client over chat, or voice call</h3>
                                 </th>
                             </tr>
                         </table>
@@ -101,8 +101,8 @@
                                 </th>
                                 
                                 <th class = "th_text">
-                                    <p class="bringhead"><h1><b>A suitable therapist</b></h1></p>
-                                    <h5 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
+                                    <p class="bringhead"><h2><b>A suitable therapist</b></h2></p>
+                                    <h6 class="hometext">Finding it difficult to find a professional psychologist that suits your needs. We got you covered</h3>
                                 </th>
                             </tr>
                         </table>
@@ -169,7 +169,6 @@
                     It's only you in a safe place with a trustworthy friend.
                     Check out our Privacy Policy here.
                 </p>
-                <br>
                     <a href="Privacy.html" class= "btn btn-warning ">Privacy Policy</a>
                     </div>
     </div>
@@ -194,21 +193,21 @@
                 <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                     <!-- Carousel -->
                     <div class="carousel-inner"  id = "carousel-start">
-                        <div class="carousel-item active text-center">
+                        <div class="carousel-item active">
                             <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
                                 <img class="d-block rounded-circle" src="testimonial-face.png" alt="First Slide">
                             </div>
                             <p class="testimonial">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
                             <p class="overview"><b>Dr. Amreen Fatima</b><br>Mental Health Processional, Psychologist, Career Counsellor & Analyst</p>
                         </div>
-                        <div class="carousel-item text-center">
+                        <div class="carousel-item ">
                             <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
                                 <img class="d-block rounded-circle" src="testimonial-face.png" alt="Second Slide">
                             </div>
                             <p class="testimonial">Talkipy is an excellent platform to vent out all your troubling emotions. Their approach is simple yet effective. Talkipy provides a confidential, comfortable and friendly space to talk out all the negatives. I would like to congratulate team Talkipy for doing a commendable job in helping people during the times of uncertainty.</p>
                             <p class="overview"><b>Dr. Amreen Fatima</b><br> Mental Health Processional, Psychologist, Career Counsellor & Analyst</p>
                         </div>
-                        <div class="carousel-item text-center">
+                        <div class="carousel-item ">
                             <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
                                 <img class="d-block rounded-circle" src="testimonial-face.png" alt="Third Slide">
                             </div>
@@ -251,12 +250,12 @@
                     </div>
                     <p>Subscribe to our Newsletter</h4>
                     <form method="POST" autocomplete="off" name="google-sheet1" onsubmit="return false">
-                        <div class="form-group" style="font-size: .5rem;">
+                        <div class="form-group" >
                             <div class="row align-items-center" id = "newsletter_subscription"> 
-                              <div class="col-auto"> 
+                              <div class="col-auto" id = "emailId"> 
                                 <input type="text" class="form-control" name="EmailId" placeholder="Email address">
                               </div>
-                              <div class="col-auto"> 
+                              <div class="col-auto" id ="send-btn"> 
                                 <button type="submit" name="submit1" class="btn btn-warning">Send</button>
                               </div>
                             </div>
@@ -276,10 +275,10 @@
                     <a class = "nav-link mb-2" href="contact.html"><p>Contact Us</p></a>
                     <a class = "nav-link mb-2" href="Privacy.html"><p>Privacy Policy</p></a>
                     <ul class = "list-inline footer-links">
-                        <a class = "nav-item" href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:1.953125vw;color:grey; padding: 0;"></i></a>
-                        <a class = "nav-item" href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:1.953125vw; color:grey; padding: 0.9765625vw;"></i></a>                
-                        <a class = "nav-item" href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:1.953125vw;color:grey; padding: 0.9765625vw;"></i></a> 
-                        <a class = "nav-item" href="https://www.youtube.com/channel/UCJoajhdB-lFPRJxmWFWZtiA"><i class="fa fa-youtube" style="font-size:1.953125vw; color:grey; padding: 1.5208333333333333vw;"></i></a>               
+                        <a class = "nav-item" href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:1.875rem;color:white; padding: 0;"></i></a>
+                        <a class = "nav-item" href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:1.875rem; color:white; padding: 0.9765625vw;"></i></a>                
+                        <a class = "nav-item" href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:1.875rem;color:white; padding: 0.9765625vw;"></i></a> 
+                        <a class = "nav-item" href="https://www.youtube.com/channel/UCJoajhdB-lFPRJxmWFWZtiA"><i class="fa fa-youtube" style="font-size:1.875rem; color:white; padding: 1.5208333333333333vw;"></i></a>               
                     </ul>
                 </div>
             </div>
