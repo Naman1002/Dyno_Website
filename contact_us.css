@@ -39,6 +39,20 @@ li{
 #form-section{
     margin: 5rem;
 }
+input[type = "Email"], input[type = "Password"], textarea{
+    background-color: #ccffd5 !important;
+    border: 1px solid black !important;
+}
+::placeholder{
+    font-weight: 600 !important; 
+    opacity: 1;
+    color: #072753 !important;
+      
+}
+#form-button{
+    display: flex;
+    justify-content: center;
+}
 #submit_btn{
     color: white;
     width: auto;
@@ -46,13 +60,41 @@ li{
     font-size: 1.25rem;
     border-radius: 30px;
     font-weight: 700;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     box-shadow: 10px 10px 10px rgb(0 0 0 / 0.5);
 }
-a{
-    align-items: flex-start;
+
+#social-icons{
+    display: flex;
+    justify-content: center;
 }
+i{
+    font-size:20px; 
+    padding:10px; 
+    color:#072753;
+}
+#testimonial_heading{
+    text-align: center; 
+    font-size:3rem;
+}
+#carouselExampleCaptions {
+    width: 400px; /* Adjust max-width as needed */
+    height: 400px;
+    background-color: bisque; /* (Fixed: was background-colour) */
+    
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-image{
+    max-width: 100%;
+    height: auto;
+}
+
 #footer_image {
     max-width: 100%; /* Ensures image scales with screen size */
     height: auto; /* Maintains aspect ratio */
@@ -88,6 +130,18 @@ footer {
         left:0;
         width:90%;
         margin-top: 2rem;
+    }
+    #form{
+        margin-bottom: 5rem;
+    }
+    #social-icons{
+        display: flex;
+        justify-content: center;
+    }
+    i{
+        display: flex !important;
+        padding-left: 0 !important;
+        justify-content: flex-start !important;
     }
     footer .row {
         flex-direction: column; /* Stacks elements vertically */

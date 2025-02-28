@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="about_us.css">
+    <script src="https://kit.fontawesome.com/355e46779b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <body style="font-family: Montserrat;">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container-fluid"> <!-- Ensures full responsiveness -->
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="Talkipy_Logo.png" alt="Talkipy" class="img-fluid" style="height: 75px;">
+                </a>
+        
+                <!-- Navbar Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                    aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- Collapsible Navbar Content -->
+                <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="letschat.html">Let's Chat</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blogpage.html">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class = "container-fluid" id = "hero-section">
+            <div class = "row">
+                <div class = "col" id = "hero-section-text">
+                    <h1><b>About Us</b></h1>
+                    <h3>Talkipy is an easily accessible peer support platform designed for people of all age groups.
+                     We make opening up easy</h3>
+                    <a class="btn btn-success" id = "free_chat_btn" href="javascript:void(Tawk_API.toggle())" >Free Chat</a>
+                </div> 
+                <div class = "col" id = "hero-section-img-div">
+                    <img src = "about_us_hero.png" id = "hero-section-img">
+                </div>
+            </div>
+        </div>
+        <div class = "container-fluid">
+            <div class = "row" >
+                <div class="col icon-item">
+                    <i class="fa-solid fa-users-rectangle" class = "logo" style = "font-size: 5rem;"></i>
+                    <h1 class = "icon-item-statistics">1200</h1>
+                    <p>Users</p>
+                </div>
+                <div class="col icon-item">
+                    <i class="fa-regular fa-calendar-days" class = "logo" style = "font-size: 5rem;"></i>
+                    <h1 class = "icon-item-statistics">1 Year</h1>
+                    <p>Experience</p>
+                </div>
+                <div class="col icon-item">
+                    <i class="fa-brands fa-rocketchat" class = "logo" style = "font-size: 5rem;"></i>
+                    <h1 class = "icon-item-statistics">332</h1>
+                    <p style = "display: flex;">Free Chat Users</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "container-fluid" id = "creator-message">
+            <div class="col" id = "creator-message-headline">
+                <h1>Message from our Creators</h1>
+            </div>
+            <div class = "row">
+                <div class="col" id = "creator-image">
+                    <img src="our_creators.jpg" alt="creators">
+                </div>
+                <div class="col" id = "creator-message-text">
+                    <p>It was at the beginning of 2020 that the pandemic and isolation
+                         created the dire need for a safe space for people to talk and open up.
+                         Stuck in their houses many felt stranded and alone. Even with people around, 
+                         opening up to a non-judgemental ear seemed impossible.
+                         <br>It seemed important to us, to let them know that there are people who care. 
+                         With this motive, we started off on this platform.
+                        <br>Our team who have continuously been the pillar of support, includes young psychologists, social workers, 
+                        and social scientists from prestigious institutions.
+                        <br><br>- Gayatri and Khushi (Co-Founders, Talkipy).
+                    </p>
+                    <p style="font-size: 15px; color: #072753;">Graduates from Tata Institute of Social Sciences</p>
+                </div>
+            </div>
+        </div>
+        <div class = "container-fluid" id = "our-mission">
+           
+            <div class="row">
+                <div class = "col" id = "mission-title">
+                    <h1><b>Our Mission</b></h1>
+                </div>
+                <div class = "col" id = "mission-text">
+                    <h3>Providing early-stage interventions, spreading awareness,
+                        and precisely linking available mental health services to the people in need.
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class = "container-fluid" id = "core-values-section">
+            <div id = "core-values-title">
+                <h1>
+                    Our Core Values
+                </h1>
+            </div>
+            <div class = "row" id = "card-row">
+                <div class="card">
+                    <i class="fa-solid fa-heart-circle-plus"></i> 
+                    <h3>Compassion</h3>
+                    <p>
+                        We at Talkipy believe that compassion comes from understanding the problem. 
+                        And the biggest act of compassion is being there for someone in their time of need.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-rotate-right"></i>
+                    <h3>Persistence</h3>
+                    <p>
+                        We as a team, are built with a never-give-up attitude, 
+                        We will keep working towards our goals through thick and thin 
+                        and will continue to strive towards them.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-head-side-virus"></i>
+                    <h3>Learning</h3>
+                    <p>
+                        Learning never reaches a saturation point and so throughout 
+                        our mental health journey we hope to learn, 
+                        unlearn and relearn along with everyone.
+                    </p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-explosion"></i>
+                    <h3>Impact</h3>
+                    <p>
+                        Big or small, the little happiness, comfort and support that we are 
+                        able to create through our work is most valuable to us.
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    <div class = "container-fluid" id = "our-mentors-section">
+        <div class = "col" id = "our-mentors-title">
+            <h1>Our Mentors</h1>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" style = "width: 400px; height:400px; overflow: hidden;">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div  class="carousel-item active">
+                <img src="testimonial.jpg" class="d-block w-100 " alt="" >
+                <div class="carousel-caption d-none d-md-block" style = "top:45%">
+                <h5>Dr Amreen Fatima</h5>
+                <p>Psychologist, Career Counsellor & Analyst</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="testimonial.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block" style = "top:45%">
+                <h5>Dr Amreen Fatima</h5>
+                <p>Psychologist, Career Counsellor & Analyst</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="testimonial.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block" style = "top:45%">
+                <h5>Dr Amreen Fatima</h5>
+                <p>Psychologist, Career Counsellor & Analyst</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true" style = "background-color: black;"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style = "background-color: black;"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>    
+    </div>
+
+
+        <div class = "container-fluid team-boxed">
+            <div class = "intro">
+                <h1 class = "text-center">Our Team</h1>
+            </div>
+            <div class = "row">
+                <div class="col">
+                    <div class="box team-card"> 
+                        <img class = "rounded-image" src="testimonial-face.png" alt="">
+                    <h3 class = "name">
+                        Rea Shejith
+                    </h3>
+                    <p class = "title">
+                        Team Coordinator
+                    </p>
+                    <p class = "description">
+                        Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+                        Praesent aliquam in tellus eu gravida. 
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box team-card">
+                        <img class = "rounded-image" src="testimonial-face.png" alt="">
+                    <h3 class = "name">
+                        Rea Shejith
+                    </h3>
+                    <p class = "title">
+                        Team Coordinator
+                    </p>
+                    <p class = "description">
+                        Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+                        Praesent aliquam in tellus eu gravida. 
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box team-card">
+                        <img class = "rounded-image" src="testimonial-face.png" alt="">
+                    <h3 class = "name">
+                        Rea Shejith
+                    </h3>
+                    <p class = "title">
+                        Team Coordinator
+                    </p>
+                    <p class = "description">
+                        Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+                        Praesent aliquam in tellus eu gravida. 
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="box team-card">
+                        <img class = "rounded-image" src="testimonial-face.png" alt="">
+                    <h3 class = "name">
+                        Rea Shejith
+                    </h3>
+                    <p class = "title">
+                        Team Coordinator
+                    </p>
+                    <p class = "description">
+                        Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+                        Praesent aliquam in tellus eu gravida. 
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+   
+                    </div>             
+                    <div class="col">
+                    <div class="box team-card">
+                        <img class = "rounded-image" src="testimonial-face.png" alt="">
+                    <h3 class = "name">
+                        Rea Shejith
+                    </h3>
+                    <p class = "title">
+                        Team Coordinator
+                    </p>
+                    <p class = "description">
+                        Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. 
+                        Praesent aliquam in tellus eu gravida. 
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-facebook-official"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     
+        </div>   
+        
+        <div class = "container-fluid" id = "get-started">
+            <div class="row" id = "get-started-text">
+                <div class = "col">
+                    <div class="col">
+                        <h1><b>Ready to get started?</b></h1>
+                        <h2>Discuss with us today</h2>
+                        <p class="sche_text">We uphold honesty and integrity in everything Mat we do. We aspire to be simple, transparent and empathetic. We maintain high standards of governance, personal integrity, confidentiality and eMical behavior.
+                        </p>
+                    </div>
+                </div>
+                <div class="col" >
+                    <form>
+                        <div class="row form-row">
+                            <div class="col">
+                                <input type="name" class="form-control" placeholder="First Name" aria-describedby="firstname" aria-placeholder="First Name">
+                            </div>
+                            <div class="col">
+                                <input type="name" class="form-control" placeholder="Last Name" aria-describedby="lastname" aria-placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row form-row">
+                            <div class="col">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Contact">
+                            </div>
+                        </div>
+                        <div class="mb3 form-row">
+                            <textarea  class="form-control" placeholder="Type your comment here" rows="8" name="Message" required></textarea>
+                        </div>
+                        <div class="mb-3 form-row">
+                            <input type="date" placeholder="date" name="Date" required>
+                        </div>
+                        <button type="submit" class="btn btn-success" id = "submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+       
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+    
+        <footer class="container-fluid clearfix" id="container9">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <a href="index.html"><img src="footer_image.png" id = "footer_image"></a>
+                        </div>
+                        <div class="col-sm-5">
+                        <h1 style="margin-top: 1.6276041666666667vw;"><b>Talkipy</b></h1>
+                        <p style = "font-size: 1rem;">Talks, Warmth & Love</p>
+                        </div>
+                    </div>
+                    <p>Subscribe to our Newsletter</h4>
+                    <form method="POST" autocomplete="off" name="google-sheet1" onsubmit="return false">
+                        <div class="form-group" >
+                            <div class="row align-items-center" id = "newsletter_subscription"> 
+                              <div class="col-auto" id = "emailId"> 
+                                <input type="text" class="form-control" name="EmailId" placeholder="Email address">
+                              </div>
+                              <div class="col-auto" id ="send-btn"> 
+                                <button type="submit" name="submit1" class="btn btn-warning">Send</button>
+                              </div>
+                            </div>
+                          </div>
+                    </form>
+                </div>
+                <div class="col-sm-2 "  style="margin-top:1.953125vw;">
+                    <h3>Company</h3>
+                    <a class = "nav-link mb-2" href="aboutus.html"><p>About Us</p></a>
+                    <a class = "nav-link mb-2" href="letschat.html"><p>Let's Chat</p></a>
+                    <!--a href="letschat.html"><p>Blog</p></a-->
+                    <a class = "nav-link mb-2" href="blogpage.html"><p>Blogs</p></a>
+                    <a class = "nav-link mb-2" href="feedback.html"><p>Feedback</p></a>
+                </div>
+                <div class="col-sm-3" style="margin-top:1.953125vw;">
+                    <h3>Support</h3>
+                    <a class = "nav-link mb-2" href="contact.html"><p>Contact Us</p></a>
+                    <a class = "nav-link mb-2" href="Privacy.html"><p>Privacy Policy</p></a>
+                    <ul class = "list-inline footer-links">
+                        <a class = "nav-item" href="https://www.instagram.com/talkipy/"><i class="fa fa-instagram" style="font-size:1.875rem;color:white; padding: 0;"></i></a>
+                        <a class = "nav-item" href="https://www.facebook.com/talkipy"><i class="fa fa-facebook" style="font-size:1.875rem; color:white; padding: 0.9765625vw;"></i></a>                
+                        <a class = "nav-item" href="https://twitter.com/talkipy"><i class="fa fa-twitter" style="font-size:1.875rem;color:white; padding: 0.9765625vw;"></i></a> 
+                        <a class = "nav-item" href="https://www.youtube.com/channel/UCJoajhdB-lFPRJxmWFWZtiA"><i class="fa fa-youtube" style="font-size:1.875rem; color:white; padding: 1.5208333333333333vw;"></i></a>               
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/60ce278c65b7290ac636d6bd/1f8ikl0k1';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script>
+        function submitted() {
+      alert("Your comment is submitted to us, it will be visible once the admin approves it.");
+    }
+    </script>
+    <script>
+        const scriptURL1 = 'https://script.google.com/macros/s/AKfycbwKK8zlZra5zkOH_lzEk-tzM2SicXm_jrzB95L_9F-K2lRMdRWkiKJkj0UEL0jzcp4Y/exec'
+        const form1 = document.forms['google-sheet1']
+    
+        form1.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL1, { method: 'POST', body: new FormData(form1) })
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+            var frm1 = document.getElementsByName('google-sheet1')[0];
+            frm1.reset();
+        })
+    </script>
+    <script>
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+    </script>
+</body>
+</html>
