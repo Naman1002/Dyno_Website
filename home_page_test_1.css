@@ -206,7 +206,7 @@ li{
     margin: 0; 
     padding: 0; 
     position: relative;
-    background-color: #A4E498;
+    background-color: #E8E6FE;
 }
 #still_doubtful_img_container{
     margin: 0;
@@ -263,21 +263,29 @@ li{
     text-align:left; 
     color: #072753;
 } 
+#how_it_works .feature-col{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   width: 100%;
+}
+.feature-image, .feature-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    font-weight: 1000;
+    background: linear-gradient(to right,#FED0C5,#8B47B5);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 #how_it_works .col{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight:700;
 }
-#how_it_works p{
-    font-size: 4rem;
-    font-weight: 700;
-    margin:10rem;
-}
-#how_it_works img{
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
 
 
 /* 
@@ -460,7 +468,7 @@ footer {
     }
     #text_overlay{
         position: relative;
-        background-color: #A4E498;
+        background-color: #E8E6FE;
         width: 100%;
         left:0;
         top:0;
@@ -490,7 +498,7 @@ footer {
         max-width:100%;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        background-color: #A4E498;
+        background-color: #E8E6FE;
     }
     #our_motto_img{
         display: none;
@@ -527,7 +535,7 @@ footer {
         justify-content: center;
         margin-bottom:2rem;
         text-align: center;
-        background-color: #A4E498;
+        background-color: #E8E6FE;
     }
     #work_with_us_img{
         display: none;
