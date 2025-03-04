@@ -226,6 +226,7 @@ footer {
     #hero-section-img{
         display: none;
     }
+    /* descendant selector >>>> child combinator */
     #our-mission .row{
         display: flex;
         flex-direction: column;
