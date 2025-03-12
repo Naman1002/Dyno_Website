@@ -262,13 +262,16 @@ li{
     font-size: 1rem; 
     text-align:left; 
     color: #072753;
-} 
-#how_it_works .feature-col{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   width: 100%;
 }
-.feature-image, .feature-text{
+#how-it-works-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight:700;
+    flex-direction: column-reverse;
+} 
+#sign-up-text,#Chat-text,#sign-up-image,#Chat-image{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -279,12 +282,16 @@ li{
             background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#how_it_works .col{
+#Match-text,#Match-image,#Meet-text,#Meet-image{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5rem;
-    font-weight:700;
+    font-size: 8rem;
+    font-weight: 1000;
+    background: linear-gradient(to right,#FED0C5,#8B47B5);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -549,6 +556,43 @@ footer {
     #work_with_us_content{
         text-align: center;
     }
+    #sign-up{
+        display: flex;
+        flex-direction: column;
+    }
+    #sign-up-text{
+        font-size: 4rem;
+    }
+    #sign-up img{
+        max-width: 100%;
+    }
+    #Match{
+        flex-direction:column-reverse;
+    }
+    #Match-text{
+        font-size: 4rem;
+    }
+    #Match img{
+        max-width: 100%;
+    }
+    #Chat{
+        flex-direction:column;
+    }
+    #Chat-text{
+        font-size: 4rem;
+    }
+    #Chat img{
+        max-width: 100%;
+    }
+    #Meet{
+        flex-direction:column-reverse;
+    }
+    #Meet-text{
+        font-size: 4rem;
+    }
+    #Meet img{
+        max-width: 100%;
+    }
     .form-group{
         font-size: .5rem;
     }
@@ -564,6 +608,9 @@ footer {
     #what_we_bring_content{
         margin-left: 0;
     }
+    #how-it-works{
+        text-align: center;
+    }
     footer .row {
         flex-direction: column; /* Stacks elements vertically */
     }
@@ -572,6 +619,10 @@ footer {
     footer .col-sm-3 {
         text-align: center; /* Ensures text stays centered */
         flex: 1; /* Makes columns flexible */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     footer .col-sm-5,
     footer .col-sm-2,
